@@ -13,6 +13,10 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/drupalcommerce/demo_commerce"
         }
     ],
     "require": {
@@ -21,7 +25,8 @@
         "cweagans/composer-patches": "~1.0",
         "drupal/core": "~8.0",
         "drush/drush": "^8.0",
-        "drupal/console": "~1.0"
+        "drupal/console": "~1.0",
+        "drupalcommerce/demo_commerce": "dev-master"
     },
     "require-dev": {
         "behat/mink": "~1.7",
